@@ -1,8 +1,9 @@
-import LoginLocator from '../locators/Login.locator';
+import LoginLocator from '../locators/login.locator';
 
 class LoginPage {
     getUrl() {
-        cy.visit(BASE_URL);
+        cy.visit('https://www.saucedemo.com/');
+        console.log('Hello 2');
     };
 
     inputUserCredentials(username, password) {

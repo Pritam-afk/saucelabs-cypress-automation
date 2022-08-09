@@ -1,4 +1,4 @@
-import LoginPage from '../pages/Login.page';
+import LoginPage from '../pages/login.page';
 
 class LoginSpecService {
     init() {
@@ -6,7 +6,7 @@ class LoginSpecService {
     };
 
     loginAsStandardUser() {
-        LoginPage.doLogin();
+        LoginPage.doLogin('standard_user', 'secret_sauce');
     };
 };
 

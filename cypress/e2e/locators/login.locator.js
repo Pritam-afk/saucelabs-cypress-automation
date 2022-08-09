@@ -1,6 +1,6 @@
 class LoginLocator {
     userNameInput() {
-        return cy.get('#username');
+        return cy.get('#user-name');
     };
 
     passwordInput() {
