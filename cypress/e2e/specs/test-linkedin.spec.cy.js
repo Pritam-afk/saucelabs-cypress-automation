@@ -1,9 +1,9 @@
 import BaseSpecService from '../services/base-spec.service'
 import LinkedInSpecService from '../services/linkedin-spec.service'
 
-describe('Login Page test', () => {
+describe('LinkedIn Icon Test', () => {
 
     it('Login', BaseSpecService.init);
 
-    it('Add Highest Priced Item To Cart', LinkedInSpecService.openLinkedIn);
+    it('Open LinkedIn', LinkedInSpecService.openLinkedIn);
 });

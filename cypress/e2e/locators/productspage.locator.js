@@ -16,7 +16,7 @@ class CartPageLocator {
     };
 
     linkedinIcon() {
-        return cy.get('.social_linkedin')
+        return cy.get('a[rel="noreferrer"]').contains('LinkedIn');
     };
 };
 

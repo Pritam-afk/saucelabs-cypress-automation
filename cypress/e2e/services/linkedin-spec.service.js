@@ -4,6 +4,7 @@ class LinkedInSpecService {
 
     openLinkedIn() {
         ProductsPage.clickOnLinkedInIcon();
+        ProductsPage.verifyCurrentPageIsLinkedIn();
     };
 };
 

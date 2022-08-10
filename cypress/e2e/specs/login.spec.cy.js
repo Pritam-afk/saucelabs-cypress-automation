@@ -1,6 +1,6 @@
 import LoginSpecService from '../services/login-spec.service'
 
-describe('Login Page test', () => {
+describe('Login Test', () => {
 
     it('Open Sauce', LoginSpecService.init);
 

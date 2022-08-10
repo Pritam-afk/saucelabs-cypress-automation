@@ -6,6 +6,8 @@ class LoginSpecService {
     };
 
     loginAsStandardUser() {
+        const username = Cypress.env('userName');
+        const password = Cypress.env('passWord');
         LoginPage.doLogin('standard_user', 'secret_sauce');
     };
 };

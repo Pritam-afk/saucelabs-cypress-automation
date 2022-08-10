@@ -2,7 +2,8 @@ import LoginLocator from '../locators/login.locator';
 
 class LoginPage {
     getUrl() {
-        cy.visit('https://www.saucedemo.com/');
+        const baseUrl= Cypress.env('baseUrl');
+        cy.visit(baseUrl);
     };
 
     inputUserCredentials(username, password) {

@@ -1,9 +1,9 @@
 import BaseSpecService from '../services/base-spec.service'
 import SortingSpecService from '../services/sorting-spec.service'
 
-describe('Login Page test', () => {
+describe('Sorting Test', () => {
 
     it('Login', BaseSpecService.init);
 
-    it('Add Highest Priced Item To Cart', SortingSpecService.SortLowToHigh);
+    it('Sort Items Low to High', SortingSpecService.SortLowToHigh);
 });

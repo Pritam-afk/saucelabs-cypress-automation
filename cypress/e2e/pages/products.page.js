@@ -18,11 +18,13 @@ class ProductsPage {
     };
 
     clickOnLinkedInIcon() {
-        ProductsPageLocator.linkedinIcon().click();
+        ProductsPageLocator.linkedinIcon().invoke('removeAttr', 'target').click();
     };
 
     verifyCurrentPageIsLinkedIn() {
-        cy.url().should()
+        const linkedInUrl = Cypress.env('linkedInUrl')
+        cy.url().should('contains', linkedInUrl);
+        cy.title().should('eq', 'Sign In | LinkedIn');
     };
 };
 
