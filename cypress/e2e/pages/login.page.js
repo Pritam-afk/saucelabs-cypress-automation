@@ -3,7 +3,6 @@ import LoginLocator from '../locators/login.locator';
 class LoginPage {
     getUrl() {
         cy.visit('https://www.saucedemo.com/');
-        console.log('Hello 2');
     };
 
     inputUserCredentials(username, password) {
