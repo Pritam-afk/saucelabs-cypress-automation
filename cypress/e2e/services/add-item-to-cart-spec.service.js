@@ -6,8 +6,6 @@ class AddItemsSpecService {
     addHighestPricedItemToCart() {
         ProductsPage.filterLowToHigh();
         ProductsPage.addLastItemToCart();
-        // ProductsPage.clickOnCartIcon();
-        // CartPage.VerifyCartItemAdded();
     };
 };
 
