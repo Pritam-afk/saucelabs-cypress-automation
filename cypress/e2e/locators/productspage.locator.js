@@ -1,6 +1,6 @@
 class ProductsPageLocator {
     filterDropdown() {
-        return cy.get('#product_sort_container');
+        return cy.get('.product_sort_container');
     };
 };
 
