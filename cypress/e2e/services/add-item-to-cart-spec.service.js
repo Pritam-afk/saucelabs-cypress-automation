@@ -1,9 +1,13 @@
 import ProductsPage from '../pages/products.page';
+import CartPage from '../pages/cart.page';
 
 class AddItemsSpecService {
 
-    setFilter() {
+    addHighestPricedItemToCart() {
         ProductsPage.filterLowToHigh();
+        ProductsPage.addLastItemToCart();
+        // ProductsPage.clickOnCartIcon();
+        // CartPage.VerifyCartItemAdded();
     };
 };
 
