@@ -16,6 +16,14 @@ class ProductsPage {
     clickOnCartIcon() {
         ProductsPageLocator.cartIcon().click();
     };
+
+    clickOnLinkedInIcon() {
+        ProductsPageLocator.linkedinIcon().click();
+    };
+
+    verifyCurrentPageIsLinkedIn() {
+        cy.url().should()
+    };
 };
 
 export default new ProductsPage;

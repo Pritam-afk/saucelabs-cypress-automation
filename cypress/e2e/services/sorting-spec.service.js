@@ -1,5 +1,5 @@
 import ProductsPage from '../pages/products.page';
-import CartPage from '../pages/cart.page';
+
 
 class SortingSpecService {
 

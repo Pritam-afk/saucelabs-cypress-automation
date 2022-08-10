@@ -14,6 +14,10 @@ class CartPageLocator {
     cartIcon() {
         return cy.get('.shopping_cart_container');
     };
+
+    linkedinIcon() {
+        return cy.get('.social_linkedin')
+    };
 };
 
 export default new CartPageLocator;
